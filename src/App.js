@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import About from './components/About';
+import Button from './components/Button';
+import Form from './components/Form';
+import Hero from './components/Hero';
+import Input from './components/Input';
+import Items from './components/Items';
+import Layout from './components/Layout';
 
 function App() {
+  const numbers=[1,2,3,40,5,6,7,8] 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Input/>
+      <br></br>
+      <Button title="click Me"/>
+      <Items numbers={numbers}/> */}
+      {/* <Layout>
+        <Hero/>
+        <About/>
+        </Layout>*/}
+      {/* <br/> */}
+      <Form/> 
+    </>
   );
 }
 
